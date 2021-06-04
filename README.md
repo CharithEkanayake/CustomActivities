@@ -1,5 +1,5 @@
 # CustomActivities
-Custom Activity to Pickup the latest files metadata on a SFTP host
+Custom Activity to capture the latest files metadata on a SFTP host
 
 * The custom activity will capture the metadata of the latest delivered file to an SFTP host directory and write the metadata back to an Azure SQL table.
 
