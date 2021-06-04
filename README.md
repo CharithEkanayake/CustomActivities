@@ -5,3 +5,5 @@ Custom Activity to capture the latest files metadata on a SFTP host
 
 * This was written as a workaround for the Azure Data Factory off-the-shelf metadata activity, which cannot capture the metadata of the latest delivered file on the SFTP host. 
 Subsequently, this data can be looked up by a Lookup activity and consume the relevant file using a Copy activity
+
+* Project can be extended for different custom usecases by adding new classes for the same, since project is parameterized by the classname.
